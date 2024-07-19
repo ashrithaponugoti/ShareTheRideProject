@@ -2,7 +2,7 @@
 //  PassengerRequestCellTableViewCell.swift
 //  ShareTheRide
 //
-//  Created by Palavelli,Bala Harinadh on 4/28/23.
+//  Created by Ashritha Ponugoti on 4/28/23.
 //
 
 import UIKit

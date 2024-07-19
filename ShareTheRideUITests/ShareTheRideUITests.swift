@@ -2,7 +2,7 @@
 //  ShareTheRideUITests.swift
 //  ShareTheRideUITests
 //
-//  Created by Pandula,Samyuktha on 4/23/23.
+//  Created by Ashritha Ponugoti on 4/23/23.
 //
 
 import XCTest

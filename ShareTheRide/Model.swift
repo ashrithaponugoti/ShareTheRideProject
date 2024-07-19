@@ -2,7 +2,7 @@
 //  User.swift
 //  ShareTheRide
 //
-//  Created by Pandula,Samyuktha on 4/26/23.
+//  Created by Ashritha Ponugoti on 4/26/23.
 //
 
 import Foundation

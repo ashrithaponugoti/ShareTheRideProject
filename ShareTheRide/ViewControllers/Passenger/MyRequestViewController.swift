@@ -2,7 +2,7 @@
 //  MyRequestViewController.swift
 //  ShareTheRide
 //
-//  Created by Palavelli,Bala Harinadh on 4/30/23.
+//  Created by Ashritha Ponugoti on 4/30/23.
 //
 
 import UIKit
