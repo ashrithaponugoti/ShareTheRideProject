@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370B531729FCB2300074CC6A /* PassengerRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B531629FCB2300074CC6A /* PassengerRequestViewController.swift */; };
+		370B531929FCB3130074CC6A /* PassengerRequestCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B531829FCB3130074CC6A /* PassengerRequestCellTableViewCell.swift */; };
+		370B531B29FEDEB50074CC6A /* MyRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B531A29FEDEB50074CC6A /* MyRequestViewController.swift */; };
+		370B531D29FEDEE10074CC6A /* MyRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B531C29FEDEE10074CC6A /* MyRequestTableViewCell.swift */; };
+		37E1B0F529FC862000255EB8 /* MyRequestedRidesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1B0F429FC862000255EB8 /* MyRequestedRidesTableCell.swift */; };
+		37E1B0FA29FC8ABF00255EB8 /* PassengerAvaliableRideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1B0F929FC8ABF00255EB8 /* PassengerAvaliableRideCell.swift */; };
+		D59D621929F5E1AC0097928D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D621829F5E1AC0097928D /* AppDelegate.swift */; };
+		D59D621B29F5E1AC0097928D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D621A29F5E1AC0097928D /* SceneDelegate.swift */; };
+		D59D621D29F5E1AC0097928D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D621C29F5E1AC0097928D /* LoginViewController.swift */; };
+		D59D622029F5E1AC0097928D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D621E29F5E1AC0097928D /* Main.storyboard */; };
+		D59D622229F5E1B00097928D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59D622129F5E1B00097928D /* Assets.xcassets */; };
+		D59D622529F5E1B00097928D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D622329F5E1B00097928D /* LaunchScreen.storyboard */; };
+		D59D623029F5E1B10097928D /* ShareTheRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D622F29F5E1B10097928D /* ShareTheRideTests.swift */; };
+		D59D623A29F5E1B10097928D /* ShareTheRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D623929F5E1B10097928D /* ShareTheRideUITests.swift */; };
+		D59D623C29F5E1B10097928D /* ShareTheRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D623B29F5E1B10097928D /* ShareTheRideUITestsLaunchTests.swift */; };
+		D59D624929F5FE480097928D /* OfferRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D624829F5FE480097928D /* OfferRideViewController.swift */; };
+		D59D624B29F5FEAD0097928D /* MyRequestedRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D624A29F5FEAD0097928D /* MyRequestedRidesViewController.swift */; };
+		D59D624D29F5FED90097928D /* AvailableRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D624C29F5FED90097928D /* AvailableRidesViewController.swift */; };
+		D59D624F29F5FEFE0097928D /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D624E29F5FEFE0097928D /* RideDetailsViewController.swift */; };
+		D59D625129F5FF250097928D /* RequestRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D625029F5FF250097928D /* RequestRideViewController.swift */; };
+		D59D629129F9A4950097928D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D629029F9A4950097928D /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59D622C29F5E1B10097928D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59D620D29F5E1AC0097928D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59D621429F5E1AC0097928D;
+			remoteInfo = ShareTheRide;
+		};
+		D59D623629F5E1B10097928D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59D620D29F5E1AC0097928D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59D621429F5E1AC0097928D;
+			remoteInfo = ShareTheRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370B531629FCB2300074CC6A /* PassengerRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerRequestViewController.swift; sourceTree = "<group>"; };
+		370B531829FCB3130074CC6A /* PassengerRequestCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerRequestCellTableViewCell.swift; sourceTree = "<group>"; };
+		370B531A29FEDEB50074CC6A /* MyRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestViewController.swift; sourceTree = "<group>"; };
+		370B531C29FEDEE10074CC6A /* MyRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestTableViewCell.swift; sourceTree = "<group>"; };
+		37E1B0F429FC862000255EB8 /* MyRequestedRidesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestedRidesTableCell.swift; sourceTree = "<group>"; };
+		37E1B0F929FC8ABF00255EB8 /* PassengerAvaliableRideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAvaliableRideCell.swift; sourceTree = "<group>"; };
+		D59D621529F5E1AC0097928D /* ShareTheRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTheRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D621829F5E1AC0097928D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59D621A29F5E1AC0097928D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D59D621C29F5E1AC0097928D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D59D621F29F5E1AC0097928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59D622129F5E1B00097928D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59D622429F5E1B00097928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D59D622629F5E1B00097928D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D622B29F5E1B10097928D /* ShareTheRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTheRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D622F29F5E1B10097928D /* ShareTheRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTheRideTests.swift; sourceTree = "<group>"; };
+		D59D623529F5E1B10097928D /* ShareTheRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTheRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D623929F5E1B10097928D /* ShareTheRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTheRideUITests.swift; sourceTree = "<group>"; };
+		D59D623B29F5E1B10097928D /* ShareTheRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTheRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D59D624829F5FE480097928D /* OfferRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRideViewController.swift; sourceTree = "<group>"; };
+		D59D624A29F5FEAD0097928D /* MyRequestedRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestedRidesViewController.swift; sourceTree = "<group>"; };
+		D59D624C29F5FED90097928D /* AvailableRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableRidesViewController.swift; sourceTree = "<group>"; };
+		D59D624E29F5FEFE0097928D /* RideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
+		D59D625029F5FF250097928D /* RequestRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideViewController.swift; sourceTree = "<group>"; };
+		D59D629029F9A4950097928D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59D621229F5E1AC0097928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D622829F5E1B10097928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D623229F5E1B10097928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E1B0F729FC89AF00255EB8 /* Rider */ = {
+			isa = PBXGroup;
+			children = (
+				D59D624829F5FE480097928D /* OfferRideViewController.swift */,
+				D59D624A29F5FEAD0097928D /* MyRequestedRidesViewController.swift */,
+				37E1B0F429FC862000255EB8 /* MyRequestedRidesTableCell.swift */,
+				370B531629FCB2300074CC6A /* PassengerRequestViewController.swift */,
+				370B531829FCB3130074CC6A /* PassengerRequestCellTableViewCell.swift */,
+			);
+			path = Rider;
+			sourceTree = "<group>";
+		};
+		37E1B0F829FC8A7C00255EB8 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				D59D624C29F5FED90097928D /* AvailableRidesViewController.swift */,
+				37E1B0F929FC8ABF00255EB8 /* PassengerAvaliableRideCell.swift */,
+				D59D625029F5FF250097928D /* RequestRideViewController.swift */,
+				D59D624E29F5FEFE0097928D /* RideDetailsViewController.swift */,
+				370B531A29FEDEB50074CC6A /* MyRequestViewController.swift */,
+				370B531C29FEDEE10074CC6A /* MyRequestTableViewCell.swift */,
+			);
+			path = Passenger;
+			sourceTree = "<group>";
+		};
+		D59D620C29F5E1AC0097928D = {
+			isa = PBXGroup;
+			children = (
+				D59D621729F5E1AC0097928D /* ShareTheRide */,
+				D59D622E29F5E1B10097928D /* ShareTheRideTests */,
+				D59D623829F5E1B10097928D /* ShareTheRideUITests */,
+				D59D621629F5E1AC0097928D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59D621629F5E1AC0097928D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59D621529F5E1AC0097928D /* ShareTheRide.app */,
+				D59D622B29F5E1B10097928D /* ShareTheRideTests.xctest */,
+				D59D623529F5E1B10097928D /* ShareTheRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59D621729F5E1AC0097928D /* ShareTheRide */ = {
+			isa = PBXGroup;
+			children = (
+				D59D62DA29F9DE900097928D /* SupportingFiles */,
+				D59D62DB29F9DE9C0097928D /* ViewControllers */,
+				D59D621E29F5E1AC0097928D /* Main.storyboard */,
+				D59D622129F5E1B00097928D /* Assets.xcassets */,
+				D59D622329F5E1B00097928D /* LaunchScreen.storyboard */,
+				D59D622629F5E1B00097928D /* Info.plist */,
+				D59D629029F9A4950097928D /* Model.swift */,
+			);
+			path = ShareTheRide;
+			sourceTree = "<group>";
+		};
+		D59D622E29F5E1B10097928D /* ShareTheRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59D622F29F5E1B10097928D /* ShareTheRideTests.swift */,
+			);
+			path = ShareTheRideTests;
+			sourceTree = "<group>";
+		};
+		D59D623829F5E1B10097928D /* ShareTheRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D59D623929F5E1B10097928D /* ShareTheRideUITests.swift */,
+				D59D623B29F5E1B10097928D /* ShareTheRideUITestsLaunchTests.swift */,
+			);
+			path = ShareTheRideUITests;
+			sourceTree = "<group>";
+		};
+		D59D62DA29F9DE900097928D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D59D621829F5E1AC0097928D /* AppDelegate.swift */,
+				D59D621A29F5E1AC0097928D /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D59D62DB29F9DE9C0097928D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D59D621C29F5E1AC0097928D /* LoginViewController.swift */,
+				37E1B0F729FC89AF00255EB8 /* Rider */,
+				37E1B0F829FC8A7C00255EB8 /* Passenger */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59D621429F5E1AC0097928D /* ShareTheRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D623F29F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRide" */;
+			buildPhases = (
+				D59D621129F5E1AC0097928D /* Sources */,
+				D59D621229F5E1AC0097928D /* Frameworks */,
+				D59D621329F5E1AC0097928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareTheRide;
+			productName = ShareTheRide;
+			productReference = D59D621529F5E1AC0097928D /* ShareTheRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59D622A29F5E1B10097928D /* ShareTheRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D624229F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRideTests" */;
+			buildPhases = (
+				D59D622729F5E1B10097928D /* Sources */,
+				D59D622829F5E1B10097928D /* Frameworks */,
+				D59D622929F5E1B10097928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D622D29F5E1B10097928D /* PBXTargetDependency */,
+			);
+			name = ShareTheRideTests;
+			productName = ShareTheRideTests;
+			productReference = D59D622B29F5E1B10097928D /* ShareTheRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D59D623429F5E1B10097928D /* ShareTheRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D624529F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRideUITests" */;
+			buildPhases = (
+				D59D623129F5E1B10097928D /* Sources */,
+				D59D623229F5E1B10097928D /* Frameworks */,
+				D59D623329F5E1B10097928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D623729F5E1B10097928D /* PBXTargetDependency */,
+			);
+			name = ShareTheRideUITests;
+			productName = ShareTheRideUITests;
+			productReference = D59D623529F5E1B10097928D /* ShareTheRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59D620D29F5E1AC0097928D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D59D621429F5E1AC0097928D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D59D622A29F5E1B10097928D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D59D621429F5E1AC0097928D;
+					};
+					D59D623429F5E1B10097928D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D59D621429F5E1AC0097928D;
+					};
+				};
+			};
+			buildConfigurationList = D59D621029F5E1AC0097928D /* Build configuration list for PBXProject "ShareTheRide" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59D620C29F5E1AC0097928D;
+			productRefGroup = D59D621629F5E1AC0097928D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59D621429F5E1AC0097928D /* ShareTheRide */,
+				D59D622A29F5E1B10097928D /* ShareTheRideTests */,
+				D59D623429F5E1B10097928D /* ShareTheRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59D621329F5E1AC0097928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D622529F5E1B00097928D /* LaunchScreen.storyboard in Resources */,
+				D59D622229F5E1B00097928D /* Assets.xcassets in Resources */,
+				D59D622029F5E1AC0097928D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D622929F5E1B10097928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D623329F5E1B10097928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59D621129F5E1AC0097928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D624D29F5FED90097928D /* AvailableRidesViewController.swift in Sources */,
+				D59D624B29F5FEAD0097928D /* MyRequestedRidesViewController.swift in Sources */,
+				D59D624F29F5FEFE0097928D /* RideDetailsViewController.swift in Sources */,
+				370B531729FCB2300074CC6A /* PassengerRequestViewController.swift in Sources */,
+				D59D621D29F5E1AC0097928D /* LoginViewController.swift in Sources */,
+				D59D624929F5FE480097928D /* OfferRideViewController.swift in Sources */,
+				370B531B29FEDEB50074CC6A /* MyRequestViewController.swift in Sources */,
+				37E1B0F529FC862000255EB8 /* MyRequestedRidesTableCell.swift in Sources */,
+				D59D629129F9A4950097928D /* Model.swift in Sources */,
+				370B531D29FEDEE10074CC6A /* MyRequestTableViewCell.swift in Sources */,
+				D59D621929F5E1AC0097928D /* AppDelegate.swift in Sources */,
+				D59D625129F5FF250097928D /* RequestRideViewController.swift in Sources */,
+				370B531929FCB3130074CC6A /* PassengerRequestCellTableViewCell.swift in Sources */,
+				37E1B0FA29FC8ABF00255EB8 /* PassengerAvaliableRideCell.swift in Sources */,
+				D59D621B29F5E1AC0097928D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D622729F5E1B10097928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D623029F5E1B10097928D /* ShareTheRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D623129F5E1B10097928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D623C29F5E1B10097928D /* ShareTheRideUITestsLaunchTests.swift in Sources */,
+				D59D623A29F5E1B10097928D /* ShareTheRideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59D622D29F5E1B10097928D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59D621429F5E1AC0097928D /* ShareTheRide */;
+			targetProxy = D59D622C29F5E1B10097928D /* PBXContainerItemProxy */;
+		};
+		D59D623729F5E1B10097928D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59D621429F5E1AC0097928D /* ShareTheRide */;
+			targetProxy = D59D623629F5E1B10097928D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59D621E29F5E1AC0097928D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D621F29F5E1AC0097928D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59D622329F5E1B00097928D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D622429F5E1B00097928D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59D623D29F5E1B10097928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59D623E29F5E1B10097928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59D624029F5E1B10097928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareTheRide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D59D624129F5E1B10097928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareTheRide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D59D624329F5E1B10097928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTheRide.app/ShareTheRide";
+			};
+			name = Debug;
+		};
+		D59D624429F5E1B10097928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTheRide.app/ShareTheRide";
+			};
+			name = Release;
+		};
+		D59D624629F5E1B10097928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareTheRide;
+			};
+			name = Debug;
+		};
+		D59D624729F5E1B10097928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.ShareTheRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareTheRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59D621029F5E1AC0097928D /* Build configuration list for PBXProject "ShareTheRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D623D29F5E1B10097928D /* Debug */,
+				D59D623E29F5E1B10097928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D623F29F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D624029F5E1B10097928D /* Debug */,
+				D59D624129F5E1B10097928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D624229F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D624329F5E1B10097928D /* Debug */,
+				D59D624429F5E1B10097928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D624529F5E1B10097928D /* Build configuration list for PBXNativeTarget "ShareTheRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D624629F5E1B10097928D /* Debug */,
+				D59D624729F5E1B10097928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59D620D29F5E1AC0097928D /* Project object */;
+}
